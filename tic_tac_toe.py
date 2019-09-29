@@ -44,7 +44,7 @@ class Board:
         self.board = [" "," ", " ", " " , " " , " " , " " , " " , " " ," "]
 
 
-
+"""
     def ai_move(self, player):
         #if center is open, choose that
         if self.board[5] is " ":
@@ -85,7 +85,7 @@ class Board:
         #AI Blocks
 
         ##choose random
-        """
+        
         for i in range(1,10):
             if self.board[i] == " ":
                 self.update_cell(i, player)
